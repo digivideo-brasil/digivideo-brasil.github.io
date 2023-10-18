@@ -1,0 +1,44 @@
+/* Resete styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 10%; */
+}
+/* div centered align */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 10%; */
+}
+
+/* img */
+.img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
